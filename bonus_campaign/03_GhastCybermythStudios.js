@@ -383,6 +383,17 @@ function initializeTestRun(testRun) {
 			reqCents += payrollDataFileContents[i+3];
 		}
 	}
+	
+	/*
+	// Always test for too big (over 9999) owed sum!
+	printConsole(reqDollars);
+	if (reqDollars > 9800) {
+		printConsole("FAIL FAIL FAIL FAIL FAIL FAIL FAIL");
+		printConsole("FAIL FAIL FAIL FAIL FAIL FAIL FAIL");
+		printConsole("FAIL FAIL FAIL FAIL FAIL FAIL FAIL");
+		printConsole("FAIL FAIL FAIL FAIL FAIL FAIL FAIL");
+	}
+	//*/
 
 	for (let i = 0; i < payableDataFileContents.length; i+=4)
 	{ // 221 paid
