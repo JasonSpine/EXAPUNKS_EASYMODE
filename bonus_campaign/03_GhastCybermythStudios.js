@@ -404,8 +404,9 @@ function initializeTestRun(testRun) {
 	reqPayableDataFileContents.push(reqDollars);
 	reqPayableDataFileContents.push(reqCents);
 	
-	printConsole(reqDollars);
-	printConsole(reqCents);
+	// Always test for too big (over 9999) or negative results!
+	//printConsole(reqDollars);
+	//printConsole(reqCents);
 	
 	requireChangeFile(payableDataFile, reqPayableDataFileContents, "Issue a payment for the correct amount.");
 }
