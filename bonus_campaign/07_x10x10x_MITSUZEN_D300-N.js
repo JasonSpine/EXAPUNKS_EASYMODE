@@ -2,7 +2,7 @@
 // please visit: http://www.zachtronics.com/virtualnetwork/
 
 function getTitle() {
-    return "EXAPUNKS EASY MODE";
+    return "EASY MODE #46";
 }
 
 function getSubtitle() {

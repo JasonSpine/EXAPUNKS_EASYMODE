@@ -4,7 +4,7 @@
 // from author: I know this code is really bad...
 
 function getTitle() {
-    return "EXAPUNKS EASY MODE";
+    return "EASY MODE #42";
 }
 
 function getSubtitle() {
