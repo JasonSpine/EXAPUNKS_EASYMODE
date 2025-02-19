@@ -43,7 +43,7 @@ function initializeTestRun(testRun) {
     var targetHost1 = createHost("my-pc", 5, -1, 6, 6);
     
     var virSignatureText = convertTextToKeywords("CIH 1049 CIH v 1 4 US");
-    var fakeVirSignatureText = convertTextToKeywords("CIH 1049 IS DANGER OUS 4 US");
+    var fakeVirSignatureText = convertTextToKeywords("CIH 1049 CIH v 1 4 PL");
     
     var masterFile = createNormalFile(getPlayerHost(), 100, FILE_ICON_DATA, virSignatureText);
     
